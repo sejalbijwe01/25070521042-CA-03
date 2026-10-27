@@ -1,0 +1,39 @@
+body { background: #fafafa; font-family: 'Segoe UI', sans-serif; margin: 0; }
+
+.hero {
+  background: linear-gradient(rgba(150,0,0,.85), rgba(100,0,0,.85));
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+.hero h1 { font-size: 3rem; font-weight: 700; }
+
+.stat-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
+.stat-box h2 { color: #c1121f; font-weight: 700; }
+
+.blood-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #c1121f;
+  box-shadow: 0 3px 10px rgba(0,0,0,.1);
+  transition: transform .2s;
+}
+.blood-card:hover { transform: translateY(-5px); }
+
+.form-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 3px 15px rgba(0,0,0,.1);
+}
+.btn-danger { background: #c1121f; border-color: #c1121f; }
